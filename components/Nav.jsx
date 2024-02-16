@@ -28,10 +28,9 @@ const Nav = () => {
           height={30}
           className='object-contain'
         />
-        <p className='logo_text'>Promptopia</p>
+     
       </Link>
 
-      {/* Desktop Navigation */}
       <div className='sm:flex hidden'>
         {session?.user ? (
           <div className='flex gap-3 md:gap-5'>
@@ -72,7 +71,7 @@ const Nav = () => {
         )}
       </div>
 
-      {/* Mobile Navigation */}
+    
       <div className='sm:hidden flex relative'>
         {session?.user ? (
           <div className='flex'>
